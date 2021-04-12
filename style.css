@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400|Nunito:700');
+@import './fluid-type.css';
+
+html {font-size: 100%;}
+
+body {
+  font-family: 'Raleway', serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #1f1f1f;
+  max-width: 80rem;
+  margin: var(--fluid-2) auto 0;
+  padding-left: var(--fluid-2);
+  padding-right: var(--fluid-2);
+  font-size: var(--fluid-0);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h2, h3, h4, h5 {
+  margin-top: 0.5em;
+  margin-bottom: 0.25em;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: var(--fluid-5);
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: var(--fluid-4);
+}
+
+h3 {
+  font-size: var(--fluid-3);
+}
+
+h4 {
+  font-size: var(--fluid-2);
+}
+
+.lede {
+  font-size: var(--fluid-2);
+}
+
+
